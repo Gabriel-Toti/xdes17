@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "SceneLoaderInputActions",
+    "maps": [
+        {
+            "name": "SceneLoader",
+            "id": "d7841e2c-8243-456b-82f7-06efc942e316",
+            "actions": [
+                {
+                    "name": "ChangeScene",
+                    "type": "Button",
+                    "id": "d5442d20-19fd-4d32-98d6-d259f08b2a66",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b20cf241-a5c1-4b28-9730-45ceae795f78",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeScene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
