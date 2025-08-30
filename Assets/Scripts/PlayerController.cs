@@ -25,20 +25,19 @@ public class PlayerController : MonoBehaviour
         float delta = Time.time - _fireTime;
 
         if (delta < 1 / _fireRate) return;
-        print("S");
+
         Instantiate(_laser, _gun.position, Quaternion.Euler(_direction));
+
         _fireTime = Time.time;
     }
 
     public void MoveCallback(InputAction.CallbackContext _callbackContext)
     {
-        print("M");
         _moveInput = _flip ? _callbackContext.ReadValue<Vector2>().x : _callbackContext.ReadValue<Vector2>().y;
     }
 
     public void AttackCallback(InputAction.CallbackContext _callbackContext)
     {
-        print("A");
         _isShooting = _callbackContext.performed;
     }
 

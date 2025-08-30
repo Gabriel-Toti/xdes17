@@ -16,7 +16,6 @@ public class Laser : MonoBehaviour
     void Start()
     {
         Vector2 direction = new (math.cos(math.TORADIANS * transform.eulerAngles.z), math.sin(math.TORADIANS * transform.eulerAngles.z));
-        print(math.TORADIANS * transform.eulerAngles.z);
         _rb.linearVelocity = new Vector2 (speed, speed) * direction;
     }
 
