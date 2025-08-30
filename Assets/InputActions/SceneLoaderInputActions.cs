@@ -106,7 +106,7 @@ public partial class @SceneLoaderInputActions: IInputActionCollection2, IDisposa
                 {
                     ""name"": """",
                     ""id"": ""b20cf241-a5c1-4b28-9730-45ceae795f78"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""path"": ""<Keyboard>/enter"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

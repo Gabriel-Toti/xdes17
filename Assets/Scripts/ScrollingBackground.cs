@@ -1,9 +1,11 @@
 using UnityEngine;
+
+[RequireComponent(typeof(SpriteRenderer))]
 /*
- Mono era uma reescrita do .NET para Mac, onde o Unity foi baseado inicialmente.
- É uma erança de 20 anos.
- Esse tipo de arquivo é necessário para incluir scripts em objetos do Unity.
- */
+Mono era uma reescrita do .NET para Mac, onde o Unity foi baseado inicialmente.
+ï¿½ uma eranï¿½a de 20 anos.
+Esse tipo de arquivo ï¿½ necessï¿½rio para incluir scripts em objetos do Unity.
+*/
 public class ScrollingBackground : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;

@@ -12,5 +12,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Vertical.unity
     guid: 83ce7ec3d794a504fa51338e44915e24
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 7cf0e2e9b7f2d844aa3cdc8a7e8bbce9, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
